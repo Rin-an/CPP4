@@ -6,7 +6,7 @@
 /*   By: ssadiki <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/25 18:58:57 by ssadiki           #+#    #+#             */
-/*   Updated: 2022/12/28 19:21:55 by ssadiki          ###   ########.fr       */
+/*   Updated: 2022/12/28 19:20:58 by ssadiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,11 +22,10 @@ int main()
 		Dog b;
 		Animal a;
 		a = b;
-		a.makeSound();
 		delete j;
 		delete i;
 	}
-/*	//Test for deep copy
+	//Test for deep copy
 	{
 		const std::string	*tab;
 		Cat	org;
@@ -53,6 +52,6 @@ int main()
 			a_arr[i]->makeSound();
 			delete a_arr[i];
 		}
-	}*/
+	}
 	return 0;
 }

@@ -6,7 +6,7 @@
 /*   By: ssadiki <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/25 18:58:57 by ssadiki           #+#    #+#             */
-/*   Updated: 2022/12/27 02:20:17 by ssadiki          ###   ########.fr       */
+/*   Updated: 2022/12/27 02:19:31 by ssadiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 int main()
 {
+	//Test for deep copy
 	{
 		const std::string	*tab;
 		Cat	org;
